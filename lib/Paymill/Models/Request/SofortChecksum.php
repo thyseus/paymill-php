@@ -209,19 +209,19 @@ class SofortChecksum extends ChecksumBase
             }
 
             if ($this->getCountry()) {
-                $parametersArray['country'] = $this->getCountry();
+                $parameterArray['country'] = $this->getCountry();
             }
 
             if ($this->getClientEmail()) {
-                $parametersArray['client_email'] = $this->getClientEmail();
+                $parameterArray['client_email'] = $this->getClientEmail();
             }
 
             if ($this->getBillingAddress()) {
-                $parametersArray['billing_address'] = $this->getBillingAddress();
+                $parameterArray['billing_address'] = $this->getBillingAddress();
             }
 
             if ($this->getClientPhoneNumber()) {
-                $parametersArray['client_phone_number'] = $this->getClientPhoneNumber();
+                $parameterArray['client_phone_number'] = $this->getClientPhoneNumber();
             }
         }
 
